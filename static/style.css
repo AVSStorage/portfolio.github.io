@@ -98,19 +98,19 @@ p {
     width: 31%;
     background-size: contain, 100%;
     background-repeat: no-repeat;
-    background-image: url("/static/Apple-Mac-Computer-Screen-PNG.png"), url('Screenshot_20200929_010013.png');
+    background-image: url("Apple-Mac-Computer-Screen-PNG.png"), url('Screenshot_20200929_010013.png');
     background-position: center, 50% 29%;
 
 }
 
 .image--2 {
-     background-image: url("/static/Apple-Mac-Computer-Screen-PNG.png"), url('Screenshot_20200929_010106.png');
+     background-image: url("Apple-Mac-Computer-Screen-PNG.png"), url('Screenshot_20200929_010106.png');
     background-size: contain, 92%;
     background-position: center, 50% 33%;
 }
 
 .image--3 {
-    background-image: url("/static/Apple-Mac-Computer-Screen-PNG.png"), url("Screenshot_20200929_010142.png");
+    background-image: url("Apple-Mac-Computer-Screen-PNG.png"), url("Screenshot_20200929_010142.png");
        background-size: contain, 92%;
 }
 
