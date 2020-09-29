@@ -121,3 +121,7 @@ p {
 .text-start {
     text-align:start;
 }   
+
+.margin-top {
+    margin-top: 30px;
+}
