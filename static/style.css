@@ -1,0 +1,119 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: #2a99b6;
+}
+
+a:hover {
+    color: #33bbdf;
+}
+
+header, footer, div.page {
+    width: 1200px;
+    margin: 0 auto;
+    background: #daeef3;
+    box-shadow: 0px 0px 39px -19px rgba(0,0,0,0.75);
+    padding: 20px 30px;
+}
+
+header h1 {
+    color: #169bbd;
+    margin: 0;
+    font-weight: normal;
+    font-size: 58px;
+    top: -11px;
+    position: relative;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+header .logo {
+    display: inline-block;
+}
+
+div.page {
+    background: #f1fbfe;
+}
+
+
+.title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+    font-family: 'Oswald', sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 290px;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about {
+    margin-left: 15px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+
+p {
+    color: #455880;
+}
+
+
+.list-big li {
+    font-size: 25px;
+}
+.space-around {
+    justify-content: space-around;
+}
+.image {
+    height: 400px;
+    width: 31%;
+    background-size: contain, 100%;
+    background-repeat: no-repeat;
+    background-image: url("/static/Apple-Mac-Computer-Screen-PNG.png"), url('Screenshot_20200929_010013.png');
+    background-position: center, 50% 29%;
+
+}
+
+.image--2 {
+     background-image: url("/static/Apple-Mac-Computer-Screen-PNG.png"), url('Screenshot_20200929_010106.png');
+    background-size: contain, 92%;
+    background-position: center, 50% 33%;
+}
+
+.image--3 {
+    background-image: url("/static/Apple-Mac-Computer-Screen-PNG.png"), url("Screenshot_20200929_010142.png");
+       background-size: contain, 92%;
+}
+
+.list {
+    list-style: none;
+}
