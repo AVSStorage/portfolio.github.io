@@ -117,3 +117,7 @@ p {
 .list {
     list-style: none;
 }
+
+.text-start {
+    text-align:start;
+}   
