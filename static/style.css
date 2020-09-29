@@ -64,6 +64,7 @@ div.page {
     display: flex;
     justify-content: center;
     width: 290px;
+    align-items: flex-start;
 }
 
 
